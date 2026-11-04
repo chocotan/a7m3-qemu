@@ -1,0 +1,158 @@
+{
+  "page": "https://oss.sony.net/Products/Linux/DI/ILCE-7M3_Ver404.html",
+  "complete": true,
+  "packages": 25,
+  "total_bytes": 263513506,
+  "files": [
+    {
+      "name": "compat-wireless.tar.gz",
+      "url": "https://prodgpl.blob.core.windows.net/download/DI/ILCE-7M3_Ver.4.04/compat-wireless.tar.gz",
+      "bytes": 5943530,
+      "sha256": "d71dc704f986ab1eafa25f6d76c0832533fdce908bbfef534cb6c98408cc49d0"
+    },
+    {
+      "name": "linux-kernel.tar.gz",
+      "url": "https://prodgpl.blob.core.windows.net/download/DI/ILCE-7M3_Ver.4.04/linux-kernel.tar.gz",
+      "bytes": 54282932,
+      "sha256": "3840107cd5cad0c3ba63b845c4ffa8e37aed58932cba5975e133d4bdb033d478"
+    },
+    {
+      "name": "qrencode.tar.gz",
+      "url": "https://prodgpl.blob.core.windows.net/download/DI/ILCE-7M3_Ver.4.04/qrencode.tar.gz",
+      "bytes": 480897,
+      "sha256": "b788f277dcbb262f4a0f7317622d55d5f8a0987d960587667be97cf651227c48"
+    },
+    {
+      "name": "sony-target-dev-busybox-1.29.3-08020601.src.rpm",
+      "url": "https://prodgpl.blob.core.windows.net/download/DI/ILCE-7M3_Ver.4.04/sony-target-dev-busybox-1.29.3-08020601.src.rpm",
+      "bytes": 2321505,
+      "sha256": "fdee624bbe0752c7c0d4b9c337263e3333a68b478a44c7e24f85c6d901530b4e"
+    },
+    {
+      "name": "sony-target-dev-busybox-1.34.1-08020702.src.rpm",
+      "url": "https://prodgpl.blob.core.windows.net/download/DI/ILCE-7M3_Ver.4.04/sony-target-dev-busybox-1.34.1-08020702.src.rpm",
+      "bytes": 2500080,
+      "sha256": "42bef6d528fa76ea6a5821e18f8a8c866ebdd35479184c0adb71af05be918fde"
+    },
+    {
+      "name": "sony-target-dev-coreutils-6.9-08020701.src.rpm",
+      "url": "https://prodgpl.blob.core.windows.net/download/DI/ILCE-7M3_Ver.4.04/sony-target-dev-coreutils-6.9-08020701.src.rpm",
+      "bytes": 5381234,
+      "sha256": "15505c3bcadff029dc9337264faa295045499288c46724015e4fc28b07198c58"
+    },
+    {
+      "name": "sony-target-dev-dosfstools-2.11-08020601.src.rpm",
+      "url": "https://prodgpl.blob.core.windows.net/download/DI/ILCE-7M3_Ver.4.04/sony-target-dev-dosfstools-2.11-08020601.src.rpm",
+      "bytes": 79850,
+      "sha256": "3f2b585a88db3821acb234f13d34d15ec68f946c872ba6727cea1f8c2ac25095"
+    },
+    {
+      "name": "sony-target-dev-dosfstools-2.11-08020701.src.rpm",
+      "url": "https://prodgpl.blob.core.windows.net/download/DI/ILCE-7M3_Ver.4.04/sony-target-dev-dosfstools-2.11-08020701.src.rpm",
+      "bytes": 80441,
+      "sha256": "dfaa1433a3f546f8ff38d402141f52858b6f4f9ca5e7b114ffd57063d099c2a6"
+    },
+    {
+      "name": "sony-target-dev-e2fsprogs-1.42-08020702.src.rpm",
+      "url": "https://prodgpl.blob.core.windows.net/download/DI/ILCE-7M3_Ver.4.04/sony-target-dev-e2fsprogs-1.42-08020702.src.rpm",
+      "bytes": 5712844,
+      "sha256": "bdeb57446b873b464c28e3f9ee248851430fa7d3486e99c3fade1e12c41b1e58"
+    },
+    {
+      "name": "sony-target-dev-gcc-gplv3-libs-4.5.1-08020601.src.rpm",
+      "url": "https://prodgpl.blob.core.windows.net/download/DI/ILCE-7M3_Ver.4.04/sony-target-dev-gcc-gplv3-libs-4.5.1-08020601.src.rpm",
+      "bytes": 66391653,
+      "sha256": "7026befa5102d96adc847fd97aebf8376272526371799b782808c1bce3ef2160"
+    },
+    {
+      "name": "sony-target-dev-gcc-gplv3-libs-4.5.1-08020704.src.rpm",
+      "url": "https://prodgpl.blob.core.windows.net/download/DI/ILCE-7M3_Ver.4.04/sony-target-dev-gcc-gplv3-libs-4.5.1-08020704.src.rpm",
+      "bytes": 66398565,
+      "sha256": "c8f55bd2b6efb1f51a67e7418d3badfa32f970aae7e0c1a959b41e0d78380ce4"
+    },
+    {
+      "name": "sony-target-dev-glibc-2.11.2-08020601.src.rpm",
+      "url": "https://prodgpl.blob.core.windows.net/download/DI/ILCE-7M3_Ver.4.04/sony-target-dev-glibc-2.11.2-08020601.src.rpm",
+      "bytes": 15717771,
+      "sha256": "7e5ec59e75fe5a829467ec49c6d6ec1c3ab3b618e4907d6bdbcba889e9733c95"
+    },
+    {
+      "name": "sony-target-dev-glibc-2.11.2-08020703.src.rpm",
+      "url": "https://prodgpl.blob.core.windows.net/download/DI/ILCE-7M3_Ver.4.04/sony-target-dev-glibc-2.11.2-08020703.src.rpm",
+      "bytes": 15735416,
+      "sha256": "fc9c49d4395c3216b467685c0394d8801957866abffe9a79731909e14b8e853d"
+    },
+    {
+      "name": "sony-target-dev-hostname-3.05-08020701.src.rpm",
+      "url": "https://prodgpl.blob.core.windows.net/download/DI/ILCE-7M3_Ver.4.04/sony-target-dev-hostname-3.05-08020701.src.rpm",
+      "bytes": 22836,
+      "sha256": "961ee9016cb40c051a2b8bcc737fdef890dd461edd2a0559c4c999f781456d99"
+    },
+    {
+      "name": "sony-target-dev-iperf-2.0.5-08020701.src.rpm",
+      "url": "https://prodgpl.blob.core.windows.net/download/DI/ILCE-7M3_Ver.4.04/sony-target-dev-iperf-2.0.5-08020701.src.rpm",
+      "bytes": 255988,
+      "sha256": "a66fc5a6ecd6822bb2e2b950b09fb34186420a365abddaea25650484263ab69c"
+    },
+    {
+      "name": "sony-target-dev-iptables-1.4.10-08020701.src.rpm",
+      "url": "https://prodgpl.blob.core.windows.net/download/DI/ILCE-7M3_Ver.4.04/sony-target-dev-iptables-1.4.10-08020701.src.rpm",
+      "bytes": 487282,
+      "sha256": "a0253d84c5221ec35e51fbc9952c13b9dcd1d26093cead0bb278460cbd3c115a"
+    },
+    {
+      "name": "sony-target-dev-libnl-3.2.22-08020701.src.rpm",
+      "url": "https://prodgpl.blob.core.windows.net/download/DI/ILCE-7M3_Ver.4.04/sony-target-dev-libnl-3.2.22-08020701.src.rpm",
+      "bytes": 738937,
+      "sha256": "e34c5d96e04372de9543a64a3534f75d67bb50d72e39bf2a7cdfde54e99c4000"
+    },
+    {
+      "name": "sony-target-dev-libusb-compat-0.1.5-08020601.src.rpm",
+      "url": "https://prodgpl.blob.core.windows.net/download/DI/ILCE-7M3_Ver.4.04/sony-target-dev-libusb-compat-0.1.5-08020601.src.rpm",
+      "bytes": 284286,
+      "sha256": "8436fff2ae4e7603ed6d8302a074df877b5d5def96d94ccb02812e4908affcca"
+    },
+    {
+      "name": "sony-target-dev-procps-3.2.7-08020601.src.rpm",
+      "url": "https://prodgpl.blob.core.windows.net/download/DI/ILCE-7M3_Ver.4.04/sony-target-dev-procps-3.2.7-08020601.src.rpm",
+      "bytes": 293710,
+      "sha256": "1ec35973cbc50658c4967e7590cacd7dce9f5f0432a96ae2b9c56b3551b454c7"
+    },
+    {
+      "name": "sony-target-dev-procps-ng-3.3.12-08020703.src.rpm",
+      "url": "https://prodgpl.blob.core.windows.net/download/DI/ILCE-7M3_Ver.4.04/sony-target-dev-procps-ng-3.3.12-08020703.src.rpm",
+      "bytes": 1568918,
+      "sha256": "c015d0dc3f170cc5586e7ae874ee82d575b6087b2dae6123f88053fe6283635e"
+    },
+    {
+      "name": "sony-target-dev-pump-0.8.16-08020701.src.rpm",
+      "url": "https://prodgpl.blob.core.windows.net/download/DI/ILCE-7M3_Ver.4.04/sony-target-dev-pump-0.8.16-08020701.src.rpm",
+      "bytes": 80232,
+      "sha256": "d5b4b79c2e1ffa3e63474c6ac9a4beb155b2339183cfae607ec7d151751ade2a"
+    },
+    {
+      "name": "sony-target-dev-rpm-4.4.2.3-08020701.src.rpm",
+      "url": "https://prodgpl.blob.core.windows.net/download/DI/ILCE-7M3_Ver.4.04/sony-target-dev-rpm-4.4.2.3-08020701.src.rpm",
+      "bytes": 10972402,
+      "sha256": "8d5461c0fa06ba3555fb8c8f3cf1c916e36d055bda5edf38f8458aca4b915bf1"
+    },
+    {
+      "name": "sony-target-dev-soundtouch-2.1.2-08020702.src.rpm",
+      "url": "https://prodgpl.blob.core.windows.net/download/DI/ILCE-7M3_Ver.4.04/sony-target-dev-soundtouch-2.1.2-08020702.src.rpm",
+      "bytes": 123586,
+      "sha256": "0d9704a49c7d0257f6b939088e294e1a2240efc7a9c0e590be98d988acb6b888"
+    },
+    {
+      "name": "sony-target-dev-util-linux-ng-2.17.2-08020601.src.rpm",
+      "url": "https://prodgpl.blob.core.windows.net/download/DI/ILCE-7M3_Ver.4.04/sony-target-dev-util-linux-ng-2.17.2-08020601.src.rpm",
+      "bytes": 3828350,
+      "sha256": "02151b30218d7ff55ed21859684e7d2123baee446de2b3f2c14d96313cda35e7"
+    },
+    {
+      "name": "sony-target-dev-util-linux-ng-2.17.2-08020702.src.rpm",
+      "url": "https://prodgpl.blob.core.windows.net/download/DI/ILCE-7M3_Ver.4.04/sony-target-dev-util-linux-ng-2.17.2-08020702.src.rpm",
+      "bytes": 3830261,
+      "sha256": "b5c89654471365002c8d9050ef88a7ca08f500a6f54553917ce487716baed46d"
+    }
+  ]
+}

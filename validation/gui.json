@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "actions": [
+    "native main",
+    "MENU button",
+    "ENTER button",
+    "Back button",
+    "WM_DELETE_WINDOW"
+  ],
+  "error": null
+}

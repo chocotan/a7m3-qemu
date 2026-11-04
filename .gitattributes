@@ -1,0 +1,2 @@
+# Unified diff context whitespace belongs to the upstream files.
+*.patch -whitespace

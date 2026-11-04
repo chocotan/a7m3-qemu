@@ -1,0 +1,44 @@
+[
+  {
+    "test": "raster",
+    "status": "passed",
+    "returncode": 0,
+    "stdout": "PASS: ARM32 fill, clipping, alpha8 source-over, capacity and unsupported-layout checks\n",
+    "stderr": ""
+  },
+  {
+    "test": "present",
+    "status": "passed",
+    "returncode": 0,
+    "stdout": "PASS: full RGBA4444 Morton/flip present, exclusive-end clear, bounds, rejected fields, overlap and one-shot engine/thread completion\n",
+    "stderr": ""
+  },
+  {
+    "test": "gemini",
+    "status": "passed",
+    "returncode": 0,
+    "stdout": "PASS: original Gemini rect/quad affine, viewport/scissor, A8/RGBA4444, native blend/masks, atomic rejection, Morton-bottom-up present and bounds\n",
+    "stderr": ""
+  },
+  {
+    "test": "lz77",
+    "status": "synthetic_passed_fixture_skipped",
+    "returncode": 0,
+    "stdout": "SKIP: firmware-derived fixture evidence/gemini-assets/border-1a05cb40.lz77 is absent; synthetic codec cases already passed\n",
+    "stderr": ""
+  },
+  {
+    "test": "image-decode",
+    "status": "fixture_skipped",
+    "returncode": 0,
+    "stdout": "SKIP: firmware-derived fixture evidence/gemini-assets/border-1a05cb40.lz77 is absent; extract it from your own firmware first\n",
+    "stderr": ""
+  },
+  {
+    "test": "gemini-backend",
+    "status": "passed",
+    "returncode": 0,
+    "stdout": "PASS: native target/current context, original finish before writes, rect/solid/quad/A8, read lease lifetime, metadata stability, terminal rejection and cleanup\n",
+    "stderr": ""
+  }
+]

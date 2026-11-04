@@ -1,0 +1,74 @@
+{
+  "native_pixels_verified": true,
+  "frames": {
+    "main": {
+      "frame": 10,
+      "source_physical": 582049792,
+      "raw_sha256": "bd525f4d50d59be549136abee333bcd1b60a046323ff05126a6d9c3d53303244",
+      "fingerprint_fnv1a64": "06c50fbddd2c9580",
+      "png_sha256": "b4ea38794dd991ed93a980785ef3fec7c0f1bb189ce169d30370732baf999c8b",
+      "segments": 150
+    },
+    "menu": {
+      "frame": 43,
+      "source_physical": 581435392,
+      "raw_sha256": "d59d29b5ff32485c741c6b6dc523a05699b188bf999dd95b7429c04eb8845135",
+      "fingerprint_fnv1a64": "fa985bc684d0e863",
+      "png_sha256": "337555da32c1c94cee45cb69b1627e35449f57193cfaff9f5b326868caf62af8",
+      "segments": 150
+    }
+  },
+  "qemu_exit_code": 0,
+  "shooting_view_created": true,
+  "complete_shooting_parameters_verified": false,
+  "menu_content_requires_visual_review": true,
+  "capture_verified": false,
+  "date": "2026-11-04",
+  "firmware_version": "ILCE-7M3 4.04",
+  "image_size": [
+    640,
+    480
+  ],
+  "original_menu_visually_verified": true,
+  "original_menu_visible_content": [
+    "six category icons",
+    "image quality/image size title",
+    "JPEG",
+    "compressed RAW",
+    "JPEG quality",
+    "aspect ratio",
+    "APS-C/Super 35mm"
+  ],
+  "shooting_visible_content": [
+    "exposure compensation icon",
+    "limited status marks"
+  ],
+  "menu_dispatch": "original key callback plus original UI-thread menu helper for AP-only startup",
+  "physical_asic_compatibility_verified": false,
+  "recording_verified": false,
+  "images": {
+    "main": "docs/images/a7m3-shooting.png",
+    "menu": "docs/images/a7m3-menu.png"
+  },
+  "input_events": [
+    "0x15010111",
+    "0x15010112",
+    "0x15010061",
+    "0x15010062"
+  ],
+  "gui": {
+    "passed": true,
+    "actions": [
+      "native main",
+      "MENU button",
+      "ENTER button",
+      "Back button",
+      "WM_DELETE_WINDOW"
+    ]
+  },
+  "limits": [
+    "complete camera parameters not restored",
+    "some menu items are unavailable",
+    "CMOS/lens/AF/capture/recording not implemented"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "tests": [
+    {
+      "test": "test-a7m3-gemini-backend.c",
+      "exit_code": 0,
+      "output": "PASS: native target/current context, original finish before writes, rect/solid/quad/A8, read lease lifetime, metadata stability, terminal rejection and cleanup\n"
+    },
+    {
+      "test": "test-a7m3-gemini.c",
+      "exit_code": 0,
+      "output": "PASS: original Gemini rect/quad affine, viewport/scissor, A8/RGBA4444, native blend/masks, atomic rejection, Morton-bottom-up present and bounds\n"
+    },
+    {
+      "test": "test-a7m3-gpe-init.c",
+      "exit_code": 0,
+      "output": "PASS: captured initialization fence accepted; unrelated packets rejected\n"
+    },
+    {
+      "test": "test-a7m3-headless.c",
+      "exit_code": 0,
+      "output": "PASS: native leases, all-record copy, exact completion, immutable capture and acknowledged recapture, page export and terminal failures\nTEST headless.committed_native_frame=0x1\nTEST headless.export_ready=0\nTEST headless.committed_native_frame=0x2\nTEST headless.export_ready=0x1\nTEST headless.committed_native_frame=0x3\nTEST headless.export_ready=0x1\nTEST headless.committed_native_frame=0x4\nTEST headless.export_ready=0x1\nTEST headless.committed_native_frame=0x5\nTEST headless.export_ready=0x1\nTEST headless.committed_native_frame=0x1\nTEST headless.export_ready=0x1\nTEST headless.error.transaction=0x42c4f968\nTEST headless.error.transaction=0x42c4f968\nTEST headless.error.layout_identity=0x4196c000\nTEST headless.error.layout_identity=0x4196c000\nTEST headless.error.read_lock=0xfffffffffffffff8\nTEST headless.error.pagemap_identity=0\nTEST headless.error.changed_identity=0x4196c000\nTEST headless.error.layout_identity=0x4196e000\nTEST headless.error.export_commit=0x1c\nTEST headless.error.pin=0xc\nTEST headless.committed_native_frame=0x1\nTEST headless.export_ready=0x1\nTEST headless.error.export_commit=0x1c\nTEST headless.error.transaction=0x42c4f988\nTEST headless.error.pagemap_identity=0x40000000\n"
+    },
+    {
+      "test": "test-a7m3-image-decode.c",
+      "exit_code": 0,
+      "output": "SKIP: firmware-derived fixture evidence/gemini-assets/border-1a05cb40.lz77 is absent; extract it from your own firmware first\n"
+    },
+    {
+      "test": "test-a7m3-input-command.c",
+      "exit_code": 0,
+      "output": "PASS: exact UART command whitelist, lengths and embedded NUL rejection\n"
+    },
+    {
+      "test": "test-a7m3-lz77.c",
+      "exit_code": 0,
+      "output": "SKIP: firmware-derived fixture evidence/gemini-assets/border-1a05cb40.lz77 is absent; synthetic codec cases already passed\n"
+    },
+    {
+      "test": "test-a7m3-present.c",
+      "exit_code": 0,
+      "output": "PASS: full RGBA4444 Morton/flip present, exclusive-end clear, bounds, rejected fields, overlap and one-shot engine/thread completion\n"
+    },
+    {
+      "test": "test-a7m3-raster.c",
+      "exit_code": 0,
+      "output": "PASS: ARM32 fill, clipping, alpha8 source-over, capacity and unsupported-layout checks\n"
+    },
+    {
+      "test": "test-camera.py",
+      "exit_code": 0,
+      "output": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.883s\n\nOK\n"
+    },
+    {
+      "test": "test-capture-headless.py",
+      "exit_code": 0,
+      "output": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.072s\n\nOK\n"
+    },
+    {
+      "test": "test-prepare-firmware.py",
+      "exit_code": 0,
+      "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.001s\n\nOK\n"
+    },
+    {
+      "test": "test-prepare-initramfs.py",
+      "exit_code": 0,
+      "output": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.139s\n\nOK\n"
+    }
+  ],
+  "failed": 0,
+  "firmware_ui_verified": false
+}

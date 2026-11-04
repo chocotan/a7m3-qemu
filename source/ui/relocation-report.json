@@ -1,0 +1,259 @@
+{
+  "status": "static ELF/prologue/trampoline checks passed",
+  "runtime_verified": false,
+  "sha256": {
+    "reference/libObj.so": "cfdc59b94fa56116e9d99154ca03a2c1aaf6039dd272679b78b0b76e21c722ac",
+    "a7m3/libObj.so": "1117453a969c9dedeb9bf6b006514fd9c2644a79085590a797189df109d64d23",
+    "reference/viewUnified2.so": "bdf0690fbeef898bba1114c5804e88fdb437b5e31598eac32df05925504f6e1a",
+    "a7m3/viewUnified2.so": "f561a1e5fa0d10d55727dd4a10ced97c9613b698a40b489ff9317634485e5129"
+  },
+  "code_entries": 33,
+  "data_entries": 12,
+  "view_entries": 3,
+  "map": {
+    "0x41b6a8": "0x2839a4",
+    "0x616fe4": "0x5e5dc0",
+    "0x6196b8": "0x5e8490",
+    "0x63e170": "0x60ec64",
+    "0x644df1": "0x6158e1",
+    "0x684e6d": "0x64f9b9",
+    "0x69b29d": "0x667f25",
+    "0x69b901": "0x668589",
+    "0x69d145": "0x669dcd",
+    "0x6f6cf7": "0x6badbb",
+    "0x6fafb9": "0x6bf07d",
+    "0x6fb28c": "0x6bf350",
+    "0x774ef0": "0x73a100",
+    "0x775120": "0x73a330",
+    "0x775260": "0x73a470",
+    "0x776ad0": "0x73bce0",
+    "0x791e91": "0x755a71",
+    "0x7bbb31": "0x77f711",
+    "0x7bbb41": "0x77f721",
+    "0x7bbbe1": "0x77f7c1",
+    "0x7bbc21": "0x77f801",
+    "0x7c0d31": "0x784911",
+    "0x7c9ba0": "0x78d780",
+    "0x7d5bb0": "0x799790",
+    "0x7d5bd0": "0x7997b0",
+    "0x7d5bf0": "0x7997d0",
+    "0x7d5c80": "0x799860",
+    "0x847e78": "0x80a758",
+    "0x848160": "0x80aa40",
+    "0x848478": "0x80ad58",
+    "0x8485fc": "0x80aedc",
+    "0x862a69": "0x825349",
+    "0x863889": "0x826169",
+    "0x86389b": "0x82617b",
+    "0xbacc50": "0x87d738",
+    "0xbace80": "0x87d930",
+    "0x13ba5a0": "0x124e600",
+    "0x13bbde0": "0x124f9b0",
+    "0x13bf150": "0x1252f90",
+    "0x13bf2e0": "0x1253120",
+    "0x13bf558": "0x1253398",
+    "0x13bf9b8": "0x12537f8",
+    "0x145cbc8": "0x12f3394",
+    "0x145d0f0": "0x12f38b8",
+    "0x145dbb8": "0x12f4380",
+    "0x145dbc0": "0x12f4388",
+    "0x145dbc4": "0x12f438c",
+    "0x149221c": "0x13289f4"
+  },
+  "rtti": [
+    {
+      "old": "0x13ba5a0",
+      "new": "0x124e600",
+      "rtti": "N3grm3bmp10BitmapImplE"
+    },
+    {
+      "old": "0x13bbde0",
+      "new": "0x124f9b0",
+      "rtti": "N9dmpNative10WindowImplE"
+    },
+    {
+      "old": "0x13bf150",
+      "new": "0x1252f90",
+      "rtti": "N6gemini19PlaneTextureMusashiE"
+    },
+    {
+      "old": "0x13bf2e0",
+      "new": "0x1253120",
+      "rtti": "N6gemini30GraphicsContext3DShaderMusashiE"
+    },
+    {
+      "old": "0x13bf558",
+      "new": "0x1253398",
+      "rtti": "N6gemini24GraphicsContext3DMusashiE"
+    },
+    {
+      "old": "0x13bf9b8",
+      "new": "0x12537f8",
+      "rtti": "N6gemini15RenderTargetOGLE"
+    }
+  ],
+  "hooks": [
+    {
+      "address": "0x5e8490",
+      "replacement": "observe_draw",
+      "prologue": "b0b5044682b000af",
+      "copies_to_trampoline": true,
+      "instructions": [
+        "push {r4, r5, r7, lr}",
+        "mov r4, r0",
+        "sub sp, #8",
+        "add r7, sp, #0"
+      ]
+    },
+    {
+      "address": "0x799790",
+      "replacement": "software_init",
+      "prologue": "034880b4784400af",
+      "copies_to_trampoline": false,
+      "instructions": [
+        "ldr r0, [pc, #0xc]",
+        "push {r7}",
+        "add r0, pc",
+        "add r7, sp, #0"
+      ]
+    },
+    {
+      "address": "0x7997b0",
+      "replacement": "software_exit",
+      "prologue": "034880b4784400af",
+      "copies_to_trampoline": false,
+      "instructions": [
+        "ldr r0, [pc, #0xc]",
+        "push {r7}",
+        "add r0, pc",
+        "add r7, sp, #0"
+      ]
+    },
+    {
+      "address": "0x7997d0",
+      "replacement": "software_fill",
+      "prologue": "02290b46f0b585b0",
+      "copies_to_trampoline": false,
+      "instructions": [
+        "cmp r1, #2",
+        "mov r3, r1",
+        "push {r4, r5, r6, r7, lr}",
+        "sub sp, #0x14"
+      ]
+    },
+    {
+      "address": "0x799860",
+      "replacement": "software_blit",
+      "prologue": "02290b46f0b585b0",
+      "copies_to_trampoline": false,
+      "instructions": [
+        "cmp r1, #2",
+        "mov r3, r1",
+        "push {r4, r5, r6, r7, lr}",
+        "sub sp, #0x14"
+      ]
+    },
+    {
+      "address": "0x73a100",
+      "replacement": "software_present",
+      "prologue": "2de9f04184b00546",
+      "copies_to_trampoline": false,
+      "instructions": [
+        "push.w {r4, r5, r6, r7, r8, lr}",
+        "sub sp, #0x10",
+        "mov r5, r0"
+      ]
+    },
+    {
+      "address": "0x73a330",
+      "replacement": "software_engine_wait",
+      "prologue": "f0b583b0441e00af",
+      "copies_to_trampoline": true,
+      "instructions": [
+        "push {r4, r5, r6, r7, lr}",
+        "sub sp, #0xc",
+        "subs r4, r0, #1",
+        "add r7, sp, #0"
+      ]
+    },
+    {
+      "address": "0x6bf350",
+      "replacement": "software_headless_update",
+      "prologue": "b0b50c4686b01c49",
+      "copies_to_trampoline": false,
+      "instructions": [
+        "push {r4, r5, r7, lr}",
+        "mov r4, r1",
+        "sub sp, #0x18",
+        "ldr r1, [pc, #0x70]"
+      ]
+    },
+    {
+      "address": "0x60ec64",
+      "replacement": "software_lz_decode",
+      "prologue": "2de9f04f8db000af",
+      "copies_to_trampoline": false,
+      "instructions": [
+        "push.w {r4, r5, r6, r7, r8, sb, sl, fp, lr}",
+        "sub sp, #0x34",
+        "add r7, sp, #0"
+      ]
+    },
+    {
+      "address": "0x80ad58",
+      "replacement": "(void *)gemini_probe_solid",
+      "prologue": "2de9f0472ded048b",
+      "copies_to_trampoline": false,
+      "instructions": [
+        "push.w {r4, r5, r6, r7, r8, sb, sl, lr}",
+        "vpush {d8, d9}"
+      ]
+    },
+    {
+      "address": "0x80aa40",
+      "replacement": "(void *)gemini_probe_rect",
+      "prologue": "2de9f04f2ded068b",
+      "copies_to_trampoline": false,
+      "instructions": [
+        "push.w {r4, r5, r6, r7, r8, sb, sl, fp, lr}",
+        "vpush {d8, d9, d10}"
+      ]
+    },
+    {
+      "address": "0x80a758",
+      "replacement": "(void *)gemini_probe_quad",
+      "prologue": "2de9f04f2ded068b",
+      "copies_to_trampoline": false,
+      "instructions": [
+        "push.w {r4, r5, r6, r7, r8, sb, sl, fp, lr}",
+        "vpush {d8, d9, d10}"
+      ]
+    },
+    {
+      "address": "0x80aedc",
+      "replacement": "(void *)gemini_probe_line",
+      "prologue": "2de9f04f83b002af",
+      "copies_to_trampoline": false,
+      "instructions": [
+        "push.w {r4, r5, r6, r7, r8, sb, sl, fp, lr}",
+        "sub sp, #0xc",
+        "add r7, sp, #8"
+      ]
+    },
+    {
+      "address": "0x78d780",
+      "replacement": "software_slow_clear",
+      "prologue": "2de9f04f2ded028b",
+      "copies_to_trampoline": false,
+      "instructions": [
+        "push.w {r4, r5, r6, r7, r8, sb, sl, fp, lr}",
+        "vpush {d8}"
+      ]
+    }
+  ],
+  "rm_trampoline": {
+    "address": "0x73a470",
+    "literal": "0xb309d6",
+    "bytes": "2de9f04f87b0034d04af0446dff800f07da47300d609b300"
+  }
+}
